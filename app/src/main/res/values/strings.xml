@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UJB_Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="blank"></string>
+    <!-- 首頁中标题 -->
+	<string name="TestingCenter">检测中心</string>
+	<string name="Title">SpiritsHelp</string>
+	
+	<!-- 打的、代驾 -->
+	<string name="Taxis">打的</string>
+	<string name="ChauffeurDrive">代驾</string>
+	    <string name="url_server">http://123.56.143.204:8080/version-apk/version.xml</string>
+    <string name="info">当前版本不是最新版本，请升级！</string>
+</resources>

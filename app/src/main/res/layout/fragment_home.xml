@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.lxt.ujb_project"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#303030"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ProgressBar"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="26dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+        <com.example.lxt.ujb_project.view.RoundProgressBar
+            android:id="@+id/ProgressBar"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:visibility="visible"
+            app:max="250"
+            app:roundColor="#D1D1D1"
+            app:roundProgressColor="@android:color/holo_blue_bright"
+            app:roundWidth="8dip"
+            app:textColor="#000000"
+            app:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
